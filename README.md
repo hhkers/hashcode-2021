@@ -13,13 +13,13 @@ The solution follows these steps:
 
 2. Duration of green light:
 
-   1. Counts the number of vehicles passing through the each street.
+   1. Count the number of vehicles passing through the each street.
 
    2. Divide the counts by the weight. (The weight for each file was found by grid search)
    
 3. Order of green light:
 
-   1. sorted by number of vehicles at the beginning.
+   1. Sort by the number of vehicles at the beginning.
 
 
 
