@@ -42,8 +42,8 @@ void init() {
    id_to_name.clear();
 }
 int main() {
-   string IN[6] = { "a.txt" , "b.txt", "c.txt", "d.txt", "e.txt", "f.txt" };
-   string OUT[6] = { "a.out" , "b.out", "c.out", "d.out", "e.out", "f.out" };
+   string IN[6] = { "inputs/a.txt" , "inputs/b.txt", "inputs/c.txt", "inputs/d.txt", "inputs/e.txt", "inputs/f.txt" };
+   string OUT[6] = { "outputs/a.out" , "outputs/b.out", "outputs/c.out", "outputs/d.out", "outputs/e.out", "outputs/f.out" };
    int WEIGHT[6] = { 10, 2, 15, 5, 2, 27 };
 
    for (int C = 0; C < 6; ++C) {
